@@ -69,3 +69,45 @@ h1{
 #p4{
     color: rgba(6, 238, 21, 0.801);
 }
+
+#img1{
+    float: left;
+    margin-right: 10px;
+}
+
+#img2{
+    float: right;
+    margin-left: 10px;
+}
+
+#div1{
+    border: 2px solid;
+    height: 75px;
+    overflow: visible;
+}
+
+#div2{
+    border: 2px solid;
+    height: 75px;
+    overflow: hidden;
+}
+
+#div3{
+    border: 2px solid;
+    height: 75px;
+    overflow: clip;
+    overflow-clip-margin: 15px;
+}
+
+#div4{
+    border: 2px solid;
+    height: 75px;
+    overflow: scroll;
+}
+
+#div5{
+    border: 2px solid;
+    height: 75px;
+    overflow: auto;
+}
+
