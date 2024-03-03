@@ -1,0 +1,48 @@
+#static{
+    color: rgb(255, 255, 255);
+    width: 100px;
+    height: 100px;
+    background-color: rgba(62, 62, 194, 0.803);
+    position: static;
+    top: 25px;
+    left: 250px;
+}
+
+#relative{
+    color: rgb(255, 255, 255);
+    width: 200px;
+    height: 200px;
+    background-color: rgba(62, 62, 194, 0.803);
+    position: relative;
+    top: 25px;
+    left: 250px;
+}
+
+#absolute{
+    color: rgb(255, 255, 255);
+    width: 100px;
+    height: 100px;
+    background-color: rgba(239, 7, 7, 0.953);
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+#sticky{
+    color: rgb(255, 255, 255);
+    width: 200px;
+    height: 200px;
+    background-color: rgba(62, 62, 194, 0.803);
+    position: sticky;
+    top: 50px;
+}
+
+#fixed{
+    color: rgb(255, 255, 255);
+    width: 200px;
+    height: 200px;
+    background-color: rgba(62, 62, 194, 0.803);
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}
