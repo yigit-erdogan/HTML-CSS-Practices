@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+}
+
+.box{
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 13em;
+    text-align: center;
+    transform: translate(100px,100px) rotate(45deg) skew(10deg);
+}
+
+#box1{
+    background-color: hsl(52, 100%, 60%);
+}
+
+#box2{
+    background-color: hsl(158, 100%, 60%);
+}
+
+#box3{
+    background-color: hsl(302, 100%, 60%);
+}
